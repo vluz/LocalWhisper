@@ -17,6 +17,7 @@ st.title("Whisper local speech-to-text")
 st.divider()
 option = st.selectbox('Please select a model for transcription', ('small', 'base', 'tiny'))
 uploaded_file = st.file_uploader("Upload an audio file", type=["wav", "mp3", "m4a", "ogg"])
+st.markdown("[![test.mp3](app/static/test.mp3)](https://streamlit.io)")
 st.divider()
 if uploaded_file is not None:
     st.audio(uploaded_file)
