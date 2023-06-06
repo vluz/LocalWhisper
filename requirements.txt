@@ -1,0 +1,2 @@
+openai_whisper
+streamlit
