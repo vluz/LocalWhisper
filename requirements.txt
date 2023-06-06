@@ -1,4 +1,3 @@
 openai_whisper
 streamlit
 ffmpeg
-tempfile
