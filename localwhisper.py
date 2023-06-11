@@ -4,6 +4,7 @@ import io
 import tempfile
 
 
+@st.cache_resource
 def transcribe_audio(file, model):
     with tempfile.NamedTemporaryFile(delete=False, suffix=".tmp") as temp_file:
         try:
